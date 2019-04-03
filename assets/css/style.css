@@ -1,0 +1,47 @@
+.primeiracor{
+    background-color: lightsalmon;
+    text-align: center;
+}
+.segundacor{
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+.margem{
+    margin-top: 10px;
+}
+
+.box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+}
+.color{
+    background-color: aliceblue;
+}
+
+.tamanho{
+    height: 50px;
+    width: 50px;
+}
+
+.comentarios-container{
+    background-color:lightgray;
+    margin-bottom: 25px;
+}
+
+.media{
+    border-bottom: 1px solid gray;
+}
+
+.caixa{
+    height: 300px;
+    width: 500px;
+    border: solid red;
+}
+
+.imgleonardo{
+    height: 150px;
+}
