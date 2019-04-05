@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap 4</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <a href="index.html">HOME</a><br>
+        </div>
+
+        <div class="container">
+
+            <button class="btn btn-success" data-toogle="tooltip" data-placement="right"
+            title="Ao cliclar você irá se cadastrar!">Cadastrar</button>
+
+        </div>
+
+        <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('[data-toogle="tooltip"').tooltip();
+            });
+        </script>
+    </body>
+</html>
